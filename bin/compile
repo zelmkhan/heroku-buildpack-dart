@@ -140,5 +140,3 @@ fi
 # $BUILD_DIR in the first place? because we need symlinks setup correctly.
 cp -R $PUB_CACHE $BUILD_DIR/pub-cache
 message `ls -l $BUILD_DIR/pub-cache`
-
-sudo apt-get install sqlite3 libsqlite3-dev
